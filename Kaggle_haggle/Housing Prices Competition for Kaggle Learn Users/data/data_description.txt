@@ -239,7 +239,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
 	
-MasVnrType: Masonry veneer type
+MasVnrType: Masonry veneer type (Typ okładziny murowanej)
 
        BrkCmn	Brick Common
        BrkFace	Brick Face
