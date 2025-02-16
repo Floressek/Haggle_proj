@@ -1,0 +1,29 @@
+TODO:
+- Add labels for NA values in categorical variables
+
+- Check which numeric features are in fact nominal/ordinal instead of quantitative
+- Create df masks for Categorical and Quantitative variables
+
+- Identify which Categorical variables are Ordinal
+- Identify which Ordinal variables can be transformed / treated as Interval
+
+- Inspect X vs Y plots
+- Inspect histograms
+- Identify outliers
+- Check correlations between Scale, Interval variables and Target variable
+
+- PCA for Quantitative variables
+- Choose Categorical variables based on theory and intuition
+- Think how to reduce the number of categories when to many
+
+- Think about interactions between binaries and Quantitative variables
+
+
+TO CHECK:
+- MoSold (month of sale: 1-12) - ordinal or interval?
+- year - ordinal or interval?
+- MiscVal - exception
+
+WHAT CAN GO INTO LINEAR MODEL:
+	- Scale & Interval variables
+	- Binary variables

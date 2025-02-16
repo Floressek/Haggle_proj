@@ -1,4 +1,4 @@
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+MSSubClass: Identifies the type of dwelling involved in the sale. [nominal]	
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -149,7 +149,7 @@ HouseStyle: Style of dwelling
        SFoyer	Split Foyer
        SLvl	Split Level
 	
-OverallQual: Rates the overall material and finish of the house
+OverallQual: Rates the overall material and finish of the house [interval]
 
        10	Very Excellent
        9	Excellent
@@ -162,7 +162,7 @@ OverallQual: Rates the overall material and finish of the house
        2	Poor
        1	Very Poor
 	
-OverallCond: Rates the overall condition of the house
+OverallCond: Rates the overall condition of the house [interval]
 
        10	Very Excellent
        9	Excellent
@@ -175,9 +175,9 @@ OverallCond: Rates the overall condition of the house
        2	Poor
        1	Very Poor
 		
-YearBuilt: Original construction date
+YearBuilt: Original construction date [interval]
 
-YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions) [interval]
 
 RoofStyle: Type of roof
 
@@ -366,17 +366,17 @@ LowQualFinSF: Low quality finished square feet (all floors)
 
 GrLivArea: Above grade (ground) living area square feet
 
-BsmtFullBath: Basement full bathrooms
+BsmtFullBath: Basement full bathrooms [scale]
 
-BsmtHalfBath: Basement half bathrooms
+BsmtHalfBath: Basement half bathrooms [scale]
 
-FullBath: Full bathrooms above grade
+FullBath: Full bathrooms above grade [scale]
 
-HalfBath: Half baths above grade
+HalfBath: Half baths above grade [scale]
 
-Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms) [scale]
 
-Kitchen: Kitchens above grade
+Kitchen: Kitchens above grade [scale]
 
 KitchenQual: Kitchen quality
 
@@ -386,7 +386,7 @@ KitchenQual: Kitchen quality
        Fa	Fair
        Po	Poor
        	
-TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms) [scale]
 
 Functional: Home functionality (Assume typical unless deductions are warranted)
 
@@ -399,7 +399,7 @@ Functional: Home functionality (Assume typical unless deductions are warranted)
        Sev	Severely Damaged
        Sal	Salvage only
 		
-Fireplaces: Number of fireplaces
+Fireplaces: Number of fireplaces [scale]
 
 FireplaceQu: Fireplace quality
 
@@ -420,7 +420,7 @@ GarageType: Garage location
        Detchd	Detached from home
        NA	No Garage
 		
-GarageYrBlt: Year garage was built
+GarageYrBlt: Year garage was built [interval]
 		
 GarageFinish: Interior finish of the garage
 
@@ -429,7 +429,7 @@ GarageFinish: Interior finish of the garage
        Unf	Unfinished
        NA	No Garage
 		
-GarageCars: Size of garage in car capacity
+GarageCars: Size of garage in car capacity [scale]
 
 GarageArea: Size of garage in square feet
 
@@ -494,11 +494,11 @@ MiscFeature: Miscellaneous feature not covered in other categories
        TenC	Tennis Court
        NA	None
 		
-MiscVal: $Value of miscellaneous feature
+MiscVal: $Value of miscellaneous feature [scale] [exception]
 
-MoSold: Month Sold (MM)
+MoSold: Month Sold (MM) [ordinal]
 
-YrSold: Year Sold (YYYY)
+YrSold: Year Sold (YYYY) [interval]
 
 SaleType: Type of sale
 		
